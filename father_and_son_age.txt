@@ -1,0 +1,12 @@
+#collect two age input
+#collect them separately, one from father, one from son and store #them in a variable. The variable name should be fathers_name and #age_of_son.
+#create another variable and name is number_of_years to calculate #how  many years ago the father was twice as old as his son.
+#then print number_of_years.
+
+current_fathers_age = int(input('Enter fathers age:'))
+
+current_age_of_his_son = int(input('Enter son age:'))
+
+number_of_years = current_fathers_age  - current_age_of_his_son * 2
+
+print('The father was twice as old as his son', number_of_years, 'years ago')
